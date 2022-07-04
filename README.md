@@ -6,7 +6,7 @@
 
 
   <h4>¡Hola! , bienvenido/a a mi portafolio personal, aqui podras encontrar informacion sobre mi , servicios , proyectos , entre otras cosas.</h4> 
-  <p>📌 Este es el primer portafolio que hago , justo antes de culminar mi carrera Universitaria. </p>
+  <p>📌 Este es el primer portafolio </p>
   
   <br>
   
