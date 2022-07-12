@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>/acercade.html</loc>
+        <loc>https://isinicolle.github.io/acercade.html</loc>
     </url>
     <url>
-        <loc>/contacto.html</loc>
+        <loc>https://isinicolle.github.io/contacto.html</loc>
     </url>
     <url>
-        <loc>/experiencia.html</loc>
+        <loc>https://isinicolle.github.io/experiencia.html</loc>
     </url>
     <url>
-        <loc>/</loc>
+        <loc>https://isinicolle.github.io/</loc>
     </url>
     <url>
-        <loc>/proyectos.html</loc>
+        <loc>https://isinicolle.github.io/proyectos.html</loc>
     </url>
     <url>
-        <loc>/servicios.html</loc>
+        <loc>https://isinicolle.github.io/servicios.html</loc>
     </url>
 </urlset>
