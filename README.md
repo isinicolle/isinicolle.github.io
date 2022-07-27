@@ -5,7 +5,7 @@
 <img src=https://github.com/isinicolle/isinicolle.github.io/blob/main/assets/img/logos/isiszapata-logo.png width="200px">
 
 
-  <h4>¡Hola! , bienvenido/a a mi portafolio personal, aqui podras encontrar informacion sobre mi , servicios , proyectos , entre otras cosas</h4> 
+  <h4>¡Hola! , bienvenido/a a mi portafolio personal, aqui podras encontrar informacion sobre mi , servicios , proyectos , entre otras cosas.</h4> 
  
  ___________
  
