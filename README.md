@@ -1,6 +1,6 @@
 <div align="center">
   
- ## Portafolio de Isis Zapata.
+ ## Portafolio de Isis Zapata
   
 <img src=https://github.com/isinicolle/isinicolle.github.io/blob/main/assets/img/logos/isiszapata-logo.png width="200px">
 
