@@ -1,0 +1,137 @@
+:root {
+    --color-pink: #e33cd1;
+    --color-modal-bg: rgba(255, 255, 255, 0.45);
+    --color-modal-border: rgba(255, 255, 255, 0.6);
+    --color-btn-gradient: linear-gradient(135deg, #e33cd1 0%, #ee91bf 100%);
+    --font-alata: 'Alata', sans-serif;
+    --gif-bg: url("../img/isiszapata-bannerportafolio.gif");
+}
+
+#bodyindex {
+    min-height: 100vh;
+    min-height: 100dvh;
+    background-color: rgb(202, 201, 200);
+    background-image: var(--gif-bg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#modal-index {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    opacity: 1;
+    z-index: 10;
+}
+
+#modal-index .modal-dialog {
+    width: 100%;
+    max-width: 340px;
+}
+
+#modal-index .modal-content {
+    border: 1px solid var(--color-modal-border);
+    background: var(--color-modal-bg);
+    border-radius: 1.25rem;
+    overflow: hidden;
+    box-shadow:
+        0 8px 32px rgba(227, 60, 209, 0.15),
+        0 2px 12px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px) saturate(1.4);
+    -webkit-backdrop-filter: blur(20px) saturate(1.4);
+}
+
+#modal-index .modal-body {
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.75rem 2rem 1rem;
+}
+
+#modal-index .modal-body p {
+    margin: 0 0 4px;
+    padding: 0;
+    font-family: var(--font-alata);
+    color: var(--color-pink);
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#modal-index .modal-body h5 {
+    font-family: var(--font-alata);
+    margin: 0;
+    padding: 0;
+    font-size: clamp(1rem, 3vw, 1.15rem);
+    color: #1e1e1e;
+    text-align: center;
+    line-height: 1.4;
+}
+
+#modal-index .modal-footer {
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem 1.75rem;
+}
+
+#modal-index .btn-portfolio {
+    font-family: var(--font-alata);
+    background: var(--color-btn-gradient);
+    border: none;
+    font-size: 0.85rem;
+    padding: 0.55rem 2rem;
+    border-radius: 2rem;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.04em;
+    box-shadow: 0 4px 16px rgba(227, 60, 209, 0.4);
+    transition: box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+#modal-index .btn-portfolio:hover {
+    color: #fff;
+    box-shadow: 0 6px 22px rgba(227, 60, 209, 0.55);
+    transform: translateY(-1px);
+}
+
+.gif-spacer {
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    #bodyindex {
+        background-position: 1% center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #bodyindex {
+        background-position: 1% center;
+    }
+
+    #modal-index .modal-dialog {
+        max-width: calc(100vw - 2.5rem);
+        margin: 0 auto;
+    }
+
+    #modal-index .modal-body {
+        padding: 1.5rem 1.5rem 0.75rem;
+    }
+
+    #modal-index .modal-footer {
+        padding: 0.75rem 1.5rem 1.5rem;
+    }
+}
